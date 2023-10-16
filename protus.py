@@ -122,7 +122,7 @@ def responder_agradecimento():
 def modo_calculadora():
     print("Modo Calculadora ativado. Para sair, digite 'sair'.")
     while True:
-        expressao = input("Digite uma expressão matemática: ")
+        expressao = input("Digite uma expressão matemática, por exemplo: 72×8: ")
         if expressao.lower() == "sair":
             break
         try:
@@ -186,15 +186,15 @@ def criar_historia():
     tema_escolhido = random.choice(temas)
     print(f"Aqui está uma história do gênero '{tema_escolhido}':")
     if tema_escolhido == "aventura":
-        print("Em uma ilha misteriosa, um grupo de exploradores embarca em uma jornada em busca de um tesouro lendário.")
+        print("Em uma ilha misteriosa, um grupo de exploradores embarca em uma jornada em busca de um tesouro lendário que foi perdido.  Espero que tenha te inspirado.")
     elif tema_escolhido == "mistério":
-        print("Um detetive brilhante é chamado para resolver um assassinato em uma mansão isolada, onde todos têm um segredo a esconder.")
+        print("Um detetive brilhante é chamado para resolver um assassinato em uma mansão isolada, onde todos têm um segredo a esconder. Espero que tenha te inspirado.")
     elif tema_escolhido == "fantasia":
-        print("Em um mundo mágico, um jovem órfão descobre que possui habilidades mágicas únicas e parte em uma jornada para salvar seu reino.")
+        print("Em um mundo mágico, um jovem órfão descobre que possui habilidades mágicas únicas e parte em uma jornada para salvar seu reino. Espero que tenha te inspirado.")
     elif tema_escolhido == "romance":
-        print("Dois estranhos se encontram por acaso em uma estação de trem e, ao longo de uma noite, compartilham histórias de amor e perda.")
+        print("Dois estranhos se encontram por acaso em uma estação de trem e, ao longo de uma noite, compartilham histórias de amor e perda. Espero ter lhe inspirado")
     elif tema_escolhido == "ficção científica":
-        print("Em um futuro distante, a humanidade colonizou planetas distantes, mas uma ameaça alienígena desconhecida coloca a sobrevivência em risco.")
+        print("Em um futuro distante, a humanidade colonizou planetas distantes, mas uma ameaça alienígena desconhecida coloca a sobrevivência em risco. Espelho ter lhe inspirado.")
 
     print("Espero que tenha gostado dessa história emocionante!")
 def criar_senha_segura():
@@ -315,13 +315,13 @@ def assistente():
                 time.sleep(2)
                 print("ID:"+key)
                 time.sleep(2)
-                print("As chaves privadas ou ID são usados para ter certeza de que é humano, apenas um passo usado para verificar se és humano e não um tipo de IA, a chave pode ser usada também para ter certeza de que o pix foi feito por doadores do projeto ELP")
+                print("As chaves privadas ou ID são usados para ter certeza de que é humano, apenas um passo usado para verificar se és humano e não um tipo de IA, a chave pode ser usada também para ter certeza de que o pix foi feito por doadores que possuem a Protus IA ou que sejam apoiadores da coyoti.")
                 printi = "por favor, escolha um desses valores e envie para o pix: gabnato500@gmail.com ;   valores :  10.00 R$        50.00 R$"
                 print(printi)
                 time.sleep(2)
                 print("ou qualquer quantia.")
                 time.sleep(1.5)
-                print("na descrição do pix é obrigatório ter : chave privada, nome do(a) responsável do(a) aluno(a)")
+                print("na descrição do pix é obrigatório ter chave privada")
 
             elif "tudo bom?" in comando:
                 sim = "Sim, melhor impossível"
